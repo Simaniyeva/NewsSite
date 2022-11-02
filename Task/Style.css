@@ -1,8 +1,150 @@
-#readMore{
-    font-family: 'Lato', sans-serif;
-    
-}
-.NewsHead{
-    font-family: 'Lato', sans-serif;
+/* CARD 1 */
 
+.card {
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+}
+
+.card .card-title,
+.date {
+    font-family: 'Nunito', sans-serif;
+    padding-top: 5px;
+}
+
+.card .card-title i {
+    margin-right: 5px;
+}
+
+.card .txt {
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    margin-top: 9px;
+}
+
+.card .date i {
+    margin: 0 3px 8px 0;
+}
+
+.card .btn {
+    border: none;
+    margin-right: 5px;
+    font-size: 16px;
+    border-radius: 6px;
+    background-color: #d6ccc2;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 9px;
+}
+
+.card .btn:hover {
+    background-color: #bbb2aa;
+}
+
+.card .row img {
+    border-radius: 20px;
+}
+
+
+/* CARD2 */
+
+#secondCard {
+    border-radius: 0;
+    box-shadow: 5px 5px 15px #598392;
+    transition: all 0.3s ease-in;
+}
+
+#secondCard .card:hover {
+    background: #598392;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 5px 5px 10px #81b29a;
+}
+
+#secondCard #secondCard:hover h3,
+#secondCard:hover i {
+    color: #fff;
+}
+
+#secondCard .card-title {
+    align-items: center;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+
+#secondCard .card-title i {
+    margin-right: 5px;
+}
+
+#secondCard .btn {
+    border: none;
+    margin-right: 10px;
+    font-size: 20px;
+    border-radius: 6px;
+    background-color: #d6ccc2;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 9px;
+}
+
+#secondCard:hover .btn {
+    background-color: #fff;
+    color: black;
+}
+
+#secondCard:hover .btn:hover {
+    background-color: rgb(234, 228, 228);
+}
+
+
+/* CARD3 */
+
+#thirdCard #card3:hover {
+    transform: scale(1.05);
+}
+
+#thirdCard #card3 {
+    transition: transform .3s;
+}
+
+#thirdCard #card3:hover h3,
+#card3:hover i {
+    color: black;
+}
+
+#thirdCard #card3 {
+    padding-top: 15px;
+}
+
+#thirdCard #card3 .date {
+    color: #6a994e;
+}
+
+#thirdCard #card3 .btn {
+    font-size: 20px;
+    background-color: #6a994e;
+    margin-right: 12px;
+}
+
+#thirdCard #card3 .btn:hover {
+    background-color: #4f7c35;
+}
+
+
+/* CARD4 */
+
+#fourthCard {
+    border-radius: 0;
+}
+
+#fourthCard #Card4:hover h3,
+#Card4:hover i {
+    color: black;
 }
